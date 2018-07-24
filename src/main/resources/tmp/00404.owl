@@ -1,0 +1,1895 @@
+Prefix: : <http://www.cs.ox.ac.uk/isg/ontologies/UID/00404.owl#>
+Prefix: obo: <http://purl.org/obo/owl/obo#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: CARO: <http://purl.org/obo/owl/CARO#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+
+
+Ontology: <http://www.cs.ox.ac.uk/isg/ontologies/UID/00404.owl>
+
+
+AnnotationProperty: oboInOwl:hasSynonymType
+
+    
+AnnotationProperty: oboInOwl:hasDbXref
+
+    
+AnnotationProperty: oboInOwl:hasURI
+
+    
+AnnotationProperty: oboInOwl:hasRelatedSynonym
+
+    
+AnnotationProperty: oboInOwl:savedBy
+
+    
+AnnotationProperty: oboInOwl:hasDefaultNamespace
+
+    
+AnnotationProperty: oboInOwl:hasBroadSynonym
+
+    
+AnnotationProperty: oboInOwl:consider
+
+    
+AnnotationProperty: oboInOwl:hasVersion
+
+    
+AnnotationProperty: oboInOwl:hasOBONamespace
+
+    
+AnnotationProperty: oboInOwl:hasExactSynonym
+
+    
+AnnotationProperty: oboInOwl:replacedBy
+
+    
+AnnotationProperty: oboInOwl:hasSubset
+
+    
+AnnotationProperty: oboInOwl:hasAlternativeId
+
+    
+AnnotationProperty: oboInOwl:hasNarrowSynonym
+
+    
+AnnotationProperty: oboInOwl:inSubset
+
+    
+AnnotationProperty: rdfs:label
+
+    
+AnnotationProperty: oboInOwl:hasDefinition
+
+    
+AnnotationProperty: oboInOwl:hasDate
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Datatype: xsd:anyURI
+
+    
+ObjectProperty: obo:part_of
+
+    Annotations: 
+        rdfs:label "part_of"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    Characteristics: 
+        Transitive
+    
+    
+ObjectProperty: oboInOwl:ObsoleteProperty
+
+    
+Class: CARO:CARO_0000006
+
+    Annotations: 
+        rdfs:label "material anatomical entity"@en,
+        oboInOwl:hasOBONamespace "caro",
+        oboInOwl:hasDefinition _:genid9
+    
+    SubClassOf: 
+        CARO:CARO_0000000
+    
+    DisjointWith: 
+        CARO:CARO_0000007
+    
+    
+Class: CARO:CARO_0000005
+
+    Annotations: 
+        rdfs:label "anatomical space"@en,
+        oboInOwl:hasDefinition _:genid7,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000007
+    
+    DisjointWith: 
+        CARO:CARO_0000008, CARO:CARO_0000010, CARO:CARO_0000009
+    
+    
+Class: CARO:CARO_0000049
+
+    Annotations: 
+        rdfs:label "protandrous hermaphroditic organism"@en,
+        oboInOwl:hasDefinition _:genid64,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000045
+    
+    DisjointWith: 
+        CARO:CARO_0000050
+    
+    
+Class: CARO:CARO_0000008
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid13,
+        oboInOwl:hasOBONamespace "caro",
+        rdfs:label "anatomical line"@en
+    
+    SubClassOf: 
+        CARO:CARO_0000007
+    
+    DisjointWith: 
+        CARO:CARO_0000005, CARO:CARO_0000010, CARO:CARO_0000009
+    
+    
+Class: CARO:CARO_0000007
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid11,
+        oboInOwl:hasOBONamespace "caro",
+        rdfs:label "immaterial anatomical entity"@en
+    
+    SubClassOf: 
+        CARO:CARO_0000000
+    
+    DisjointWith: 
+        CARO:CARO_0000006
+    
+    
+Class: CARO:CARO_0000046
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid58,
+        oboInOwl:hasRelatedSynonym _:genid60,
+        rdfs:label "synchronous hermaphroditic organism"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000029
+    
+    DisjointWith: 
+        CARO:CARO_0000045
+    
+    
+Class: CARO:CARO_0000045
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid56,
+        oboInOwl:hasRelatedSynonym _:genid55,
+        rdfs:label "sequential hermaphroditic organism"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000029
+    
+    DisjointWith: 
+        CARO:CARO_0000046
+    
+    
+Class: CARO:CARO_0000004
+
+    Annotations: 
+        rdfs:label "portion of organism substance"@en,
+        oboInOwl:hasDefinition _:genid5,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000006
+    
+    DisjointWith: 
+        CARO:CARO_0000003
+    
+    
+Class: CARO:CARO_0000048
+
+    Annotations: 
+        rdfs:label "gonochoristic organism"@en,
+        oboInOwl:hasRelatedSynonym _:genid63,
+        oboInOwl:hasDefinition _:genid61,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000012
+    
+    DisjointWith: 
+        CARO:CARO_0000029, CARO:CARO_0000030
+    
+    
+Class: CARO:CARO_0000003
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid3,
+        rdfs:label "anatomical structure"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000006
+    
+    DisjointWith: 
+        CARO:CARO_0000004
+    
+    
+Class: CARO:CARO_0000009
+
+    Annotations: 
+        rdfs:label "anatomical point"@en,
+        oboInOwl:hasOBONamespace "caro",
+        oboInOwl:hasDefinition _:genid15
+    
+    SubClassOf: 
+        CARO:CARO_0000007
+    
+    DisjointWith: 
+        CARO:CARO_0000005, CARO:CARO_0000008, CARO:CARO_0000010
+    
+    
+Class: CARO:CARO_0000011
+
+    Annotations: 
+        rdfs:label "anatomical system"@en,
+        oboInOwl:hasDefinition _:genid19,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000054
+    
+    DisjointWith: 
+        CARO:CARO_0000041
+    
+    
+Class: CARO:CARO_0000055
+
+    Annotations: 
+        rdfs:label "multi-tissue structure"@en,
+        oboInOwl:hasDefinition _:genid70,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000003
+    
+    DisjointWith: 
+        CARO:CARO_0000024, CARO:CARO_0000013, CARO:CARO_0000012, CARO:CARO_0000014, CARO:CARO_0000042, CARO:CARO_0000054, CARO:CARO_0000043, CARO:CARO_0000032, CARO:CARO_0000040
+    
+    
+Class: CARO:CARO_0000010
+
+    Annotations: 
+        rdfs:label "anatomical surface"@en,
+        oboInOwl:hasOBONamespace "caro",
+        oboInOwl:hasDefinition _:genid17
+    
+    SubClassOf: 
+        CARO:CARO_0000007
+    
+    DisjointWith: 
+        CARO:CARO_0000005, CARO:CARO_0000008, CARO:CARO_0000009
+    
+    
+Class: CARO:CARO_0000054
+
+    Annotations: 
+        rdfs:label "anatomical group"@en,
+        oboInOwl:hasDefinition _:genid68,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000003
+    
+    DisjointWith: 
+        CARO:CARO_0000024, CARO:CARO_0000013, CARO:CARO_0000012, CARO:CARO_0000014, CARO:CARO_0000042, CARO:CARO_0000055, CARO:CARO_0000032, CARO:CARO_0000043, CARO:CARO_0000040
+    
+    
+Class: CARO:CARO_0000050
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid66,
+        rdfs:label "protogynous hermaphroditic organism"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000045
+    
+    DisjointWith: 
+        CARO:CARO_0000049
+    
+    
+Class: CARO:CARO_0000019
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid30,
+        rdfs:label "compound organ component"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        obo:part_of some CARO:CARO_0000024,
+        CARO:CARO_0000055
+    
+    DisjointWith: 
+        CARO:CARO_0000021
+    
+    
+Class: CARO:CARO_0000013
+
+    Annotations: 
+        rdfs:label "cell"@en,
+        oboInOwl:hasDefinition _:genid23,
+        oboInOwl:hasDbXref _:genid25,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000003
+    
+    DisjointWith: 
+        CARO:CARO_0000024, CARO:CARO_0000012, CARO:CARO_0000014, CARO:CARO_0000042, CARO:CARO_0000055, CARO:CARO_0000032, CARO:CARO_0000043, CARO:CARO_0000054, CARO:CARO_0000040
+    
+    
+Class: CARO:CARO_0000012
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid21,
+        oboInOwl:hasOBONamespace "caro",
+        rdfs:label "multi-cellular organism"@en
+    
+    SubClassOf: 
+        CARO:CARO_0000003
+    
+    DisjointWith: 
+        CARO:CARO_0000013, CARO:CARO_0000024, CARO:CARO_0000014, CARO:CARO_0000042, CARO:CARO_0000055, CARO:CARO_0000054, CARO:CARO_0000043, CARO:CARO_0000032, CARO:CARO_0000040
+    
+    
+Class: CARO:CARO_0000014
+
+    Annotations: 
+        rdfs:label "cell component"@en,
+        oboInOwl:hasOBONamespace "caro",
+        oboInOwl:hasDefinition _:genid27
+    
+    SubClassOf: 
+        obo:part_of some CARO:CARO_0000013,
+        CARO:CARO_0000003
+    
+    DisjointWith: 
+        CARO:CARO_0000024, CARO:CARO_0000013, CARO:CARO_0000012, CARO:CARO_0000042, CARO:CARO_0000055, CARO:CARO_0000054, CARO:CARO_0000043, CARO:CARO_0000032, CARO:CARO_0000040
+    
+    
+Class: oboInOwl:SynonymType
+
+    
+Class: CARO:CARO_0000064
+
+    Annotations: 
+        rdfs:label "single cell organism"@en,
+        oboInOwl:hasDefinition _:genid76,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000013
+    
+    DisjointWith: 
+        CARO:CARO_0000077
+    
+    
+Class: CARO:CARO_0000063
+
+    Annotations: 
+        rdfs:label "portion of cell substance"@en,
+        oboInOwl:hasDefinition _:genid74,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000004
+    
+    
+Class: CARO:CARO_0000066
+
+    Annotations: 
+        rdfs:label "epithelium"@en,
+        oboInOwl:hasOBONamespace "caro",
+        oboInOwl:hasDefinition _:genid80
+    
+    SubClassOf: 
+        CARO:CARO_0000043
+    
+    
+Class: CARO:CARO_0000021
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid32,
+        rdfs:label "simple organ"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000055
+    
+    DisjointWith: 
+        CARO:CARO_0000019
+    
+    
+Class: oboInOwl:Synonym
+
+    Individuals: 
+        _:genid55,
+        _:genid60,
+        _:genid42,
+        _:genid63
+    
+    
+Class: CARO:CARO_0000065
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid78,
+        rdfs:label "basal lamina"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000040
+    
+    
+Class: CARO:CARO_0000062
+
+    Annotations: 
+        rdfs:label "cell space"@en,
+        oboInOwl:hasDefinition _:genid72,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000005
+    
+    
+Class: CARO:CARO_0000028
+
+    Annotations: 
+        rdfs:label "female organism"@en,
+        oboInOwl:hasOBONamespace "caro",
+        oboInOwl:hasDefinition _:genid38
+    
+    SubClassOf: 
+        CARO:CARO_0000048
+    
+    DisjointWith: 
+        CARO:CARO_0000027
+    
+    
+Class: CARO:CARO_0000027
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid36,
+        rdfs:label "male organism"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000048
+    
+    DisjointWith: 
+        CARO:CARO_0000028
+    
+    
+Class: CARO:CARO_0000029
+
+    Annotations: 
+        oboInOwl:hasRelatedSynonym _:genid42,
+        oboInOwl:hasDefinition _:genid40,
+        rdfs:label "hermaphroditic organism"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000012
+    
+    DisjointWith: 
+        CARO:CARO_0000048, CARO:CARO_0000030
+    
+    
+Class: CARO:CARO_0000024
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid34,
+        rdfs:label "compound organ"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000003
+    
+    DisjointWith: 
+        CARO:CARO_0000013, CARO:CARO_0000012, CARO:CARO_0000014, CARO:CARO_0000042, CARO:CARO_0000055, CARO:CARO_0000032, CARO:CARO_0000054, CARO:CARO_0000043, CARO:CARO_0000040
+    
+    
+Class: CARO:CARO_0000068
+
+    Annotations: 
+        rdfs:label "simple columnar epithlium"@en,
+        oboInOwl:hasDefinition _:genid84,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000073
+    
+    DisjointWith: 
+        CARO:CARO_0000067, CARO:CARO_0000070
+    
+    
+Class: CARO:CARO_0000067
+
+    Annotations: 
+        rdfs:label "simple cuboidal epithelium"@en,
+        oboInOwl:hasDefinition _:genid82,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000073
+    
+    DisjointWith: 
+        CARO:CARO_0000068, CARO:CARO_0000070
+    
+    
+Class: CARO:CARO_0000069
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid86,
+        rdfs:label "multilaminar epithelium"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000066
+    
+    DisjointWith: 
+        CARO:CARO_0000071, CARO:CARO_0000073
+    
+    
+Class: oboInOwl:Definition
+
+    Individuals: 
+        _:genid90,
+        _:genid94,
+        _:genid72,
+        _:genid70,
+        _:genid92,
+        _:genid32,
+        _:genid98,
+        _:genid76,
+        _:genid53,
+        _:genid30,
+        _:genid74,
+        _:genid96,
+        _:genid51,
+        _:genid58,
+        _:genid36,
+        _:genid13,
+        _:genid78,
+        _:genid56,
+        _:genid34,
+        _:genid11,
+        _:genid17,
+        _:genid38,
+        _:genid9,
+        _:genid15,
+        _:genid7,
+        _:genid5,
+        _:genid19,
+        _:genid3,
+        _:genid1,
+        _:genid61,
+        _:genid82,
+        _:genid80,
+        _:genid43,
+        _:genid21,
+        _:genid64,
+        _:genid86,
+        _:genid40,
+        _:genid84,
+        _:genid47,
+        _:genid68,
+        _:genid23,
+        _:genid45,
+        _:genid66,
+        _:genid88,
+        _:genid27,
+        _:genid49
+    
+    
+Class: CARO:CARO_0000030
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid43,
+        rdfs:label "asexual organism"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000012
+    
+    DisjointWith: 
+        CARO:CARO_0000029, CARO:CARO_0000048
+    
+    
+Class: CARO:CARO_0000074
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid96,
+        oboInOwl:hasOBONamespace "caro",
+        rdfs:label "solid compound organ"@en
+    
+    SubClassOf: 
+        CARO:CARO_0000024
+    
+    DisjointWith: 
+        CARO:CARO_0000072
+    
+    
+Class: CARO:CARO_0000077
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid98,
+        rdfs:label "epithelial cell"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000013
+    
+    DisjointWith: 
+        CARO:CARO_0000064
+    
+    
+Class: CARO:CARO_0000032
+
+    Annotations: 
+        rdfs:label "organism subdivision"@en,
+        oboInOwl:hasDefinition _:genid45,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000003
+    
+    DisjointWith: 
+        CARO:CARO_0000013, CARO:CARO_0000024, CARO:CARO_0000012, CARO:CARO_0000014, CARO:CARO_0000042, CARO:CARO_0000055, CARO:CARO_0000054, CARO:CARO_0000043, CARO:CARO_0000040
+    
+    
+Class: CARO:CARO_0000071
+
+    Annotations: 
+        rdfs:label "atypical epithelium"@en,
+        oboInOwl:hasOBONamespace "caro",
+        oboInOwl:hasDefinition _:genid90
+    
+    SubClassOf: 
+        CARO:CARO_0000066
+    
+    DisjointWith: 
+        CARO:CARO_0000069, CARO:CARO_0000073
+    
+    
+Class: CARO:CARO_0000070
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid88,
+        rdfs:label "simple squamous epithelium"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000073
+    
+    DisjointWith: 
+        CARO:CARO_0000068, CARO:CARO_0000067
+    
+    
+Class: CARO:CARO_0000073
+
+    Annotations: 
+        rdfs:label "unilaminar epithelium"@en,
+        oboInOwl:hasDefinition _:genid94,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000066
+    
+    DisjointWith: 
+        CARO:CARO_0000069, CARO:CARO_0000071
+    
+    
+Class: CARO:CARO_0000072
+
+    Annotations: 
+        rdfs:label "cavitated compound organ"@en,
+        oboInOwl:hasDefinition _:genid92,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000024
+    
+    DisjointWith: 
+        CARO:CARO_0000074
+    
+    
+Class: oboInOwl:Subset
+
+    
+Class: oboInOwl:DbXref
+
+    Individuals: 
+        _:genid50,
+        _:genid71,
+        _:genid93,
+        _:genid91,
+        _:genid10,
+        _:genid54,
+        _:genid31,
+        _:genid75,
+        _:genid97,
+        _:genid52,
+        _:genid95,
+        _:genid73,
+        _:genid14,
+        _:genid79,
+        _:genid35,
+        _:genid57,
+        _:genid12,
+        _:genid33,
+        _:genid99,
+        _:genid77,
+        _:genid18,
+        _:genid39,
+        _:genid16,
+        _:genid37,
+        _:genid59,
+        _:genid8,
+        _:genid6,
+        _:genid4,
+        _:genid2,
+        _:genid83,
+        _:genid81,
+        _:genid87,
+        _:genid65,
+        _:genid20,
+        _:genid85,
+        _:genid41,
+        _:genid62,
+        _:genid69,
+        _:genid25,
+        _:genid24,
+        _:genid46,
+        _:genid89,
+        _:genid67,
+        _:genid44,
+        _:genid22,
+        _:genid28,
+        _:genid48
+    
+    
+Class: oboInOwl:ObsoleteClass
+
+    
+Class: CARO:CARO_0000042
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid51,
+        oboInOwl:hasOBONamespace "caro",
+        rdfs:label "extraembryonic structure"@en
+    
+    SubClassOf: 
+        CARO:CARO_0000003
+    
+    DisjointWith: 
+        CARO:CARO_0000024, CARO:CARO_0000013, CARO:CARO_0000012, CARO:CARO_0000014, CARO:CARO_0000055, CARO:CARO_0000054, CARO:CARO_0000043, CARO:CARO_0000032, CARO:CARO_0000040
+    
+    
+Class: CARO:CARO_0000041
+
+    Annotations: 
+        oboInOwl:hasOBONamespace "caro",
+        rdfs:label "anatomical cluster"@en,
+        oboInOwl:hasDefinition _:genid49
+    
+    SubClassOf: 
+        CARO:CARO_0000054
+    
+    DisjointWith: 
+        CARO:CARO_0000011
+    
+    
+Class: CARO:CARO_0000000
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid1,
+        rdfs:label "anatomical entity"@en,
+        oboInOwl:hasOBONamespace "caro"
+    
+    
+Class: CARO:CARO_0000043
+
+    Annotations: 
+        rdfs:label "portion of tissue"@en,
+        oboInOwl:hasDefinition _:genid53,
+        oboInOwl:hasOBONamespace "caro"
+    
+    SubClassOf: 
+        CARO:CARO_0000003
+    
+    DisjointWith: 
+        CARO:CARO_0000013, CARO:CARO_0000024, CARO:CARO_0000012, CARO:CARO_0000014, CARO:CARO_0000042, CARO:CARO_0000055, CARO:CARO_0000032, CARO:CARO_0000054, CARO:CARO_0000040
+    
+    
+Class: CARO:CARO_0000040
+
+    Annotations: 
+        oboInOwl:hasDefinition _:genid47,
+        oboInOwl:hasOBONamespace "caro",
+        rdfs:label "acellular anatomical structure"@en
+    
+    SubClassOf: 
+        CARO:CARO_0000003
+    
+    DisjointWith: 
+        CARO:CARO_0000024, CARO:CARO_0000013, CARO:CARO_0000012, CARO:CARO_0000014, CARO:CARO_0000042, CARO:CARO_0000055, CARO:CARO_0000032, CARO:CARO_0000054, CARO:CARO_0000043
+    
+    
+Individual: _:genid90
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid91,
+        rdfs:label "
+Epithelium that consists of epithelial cells not arranged in one ore more layers.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid94
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid95,
+        rdfs:label "
+Epithelium that consists of a single layer of epithelial cells.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid93
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid92
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid93,
+        rdfs:label "
+Compound organ that contains one or more macroscopic anatomical spaces.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid91
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid10
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid98
+
+    Annotations: 
+        rdfs:label "
+Cell which has as its part a cytoskeleton that allows for tight cell to cell contact and which has apical-basal cell polarity.
+"@en,
+        oboInOwl:hasDbXref _:genid99
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid97
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid96
+
+    Annotations: 
+        rdfs:label "
+Compound organ that does not contain macroscopic anatomical spaces.
+"@en,
+        oboInOwl:hasDbXref _:genid97
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid95
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid14
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid13
+
+    Annotations: 
+        rdfs:label "
+Non-material anatomical entity of one dimension, which forms a boundary of an anatomical surface or is a modulation of an anatomical surface.
+"@en,
+        oboInOwl:hasDbXref _:genid14
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid12
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid11
+
+    Annotations: 
+        rdfs:label "Anatomical entity that has no mass."@en,
+        oboInOwl:hasDbXref _:genid12
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid99
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid18
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid17
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid18,
+        rdfs:label "
+Non-material anatomical entity of two dimensions, that is demarcated by anatomical lines or points on the external or internal surfaces of anatomical structures.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid16
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid15
+
+    Annotations: 
+        rdfs:label "
+Non-material anatomical entity of zero dimension, which forms a boundary of an anatomical line or surface.
+"@en,
+        oboInOwl:hasDbXref _:genid16
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid19
+
+    Annotations: 
+        rdfs:label "
+Anatomical group that is has as its parts distinct anatomical structures interconnected by anatomical structures at a lower level of granularity.
+"@en,
+        oboInOwl:hasDbXref _:genid20
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid83
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid82
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid83,
+        rdfs:label "
+Unilaminar epithelium that consists of a single layer of cuboidal cells.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid81
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid80
+
+    Annotations: 
+        rdfs:label "
+Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina.
+"@en,
+        oboInOwl:hasDbXref _:genid81
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid87
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid86
+
+    Annotations: 
+        rdfs:label "
+Epithelium that consists of more than one layer of epithelial cells.
+"@en,
+        oboInOwl:hasDbXref _:genid87
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid85
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid84
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid85,
+        rdfs:label "
+Unilaminar epithelium that consists of a single layer of columnar cells.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid89
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid88
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid89,
+        rdfs:label "
+Unilaminar epithelium that consists of a single layer of squamous cells.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid32
+
+    Annotations: 
+        rdfs:label "
+Multi-tissue structure that is not part of a compound organ.
+"@en,
+        oboInOwl:hasDbXref _:genid33
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid31
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid30
+
+    Annotations: 
+        rdfs:label "
+Multi-tissue structure that is part of a compound organ.
+"@en,
+        oboInOwl:hasDbXref _:genid31
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid36
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid37,
+        rdfs:label "
+Gonochoristic organism that can produce male gametes.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid35
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid34
+
+    Annotations: 
+        rdfs:label "
+Anatomical structure that has as its parts two or more multi-tissue structures of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona fide boundaries from other distinct anatomical structures of different types.
+"@en,
+        oboInOwl:hasDbXref _:genid35
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid33
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid39
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid38
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid39,
+        rdfs:label "
+Gonochoristic organism that can produce female gametes.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid37
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid21
+
+    Annotations: 
+        rdfs:label "
+Anatomical structure that is an individual member of a species and consists of more than one cell.
+"@en,
+        oboInOwl:hasDbXref _:genid22
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid20
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid25
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/GO#GO_0005623"^^xsd:anyURI,
+        rdfs:label "GO:0005623"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid24
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid23
+
+    Annotations: 
+        rdfs:label "
+Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.
+"@en,
+        oboInOwl:hasDbXref _:genid24
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid22
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid28
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid27
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid28,
+        rdfs:label "
+Anatomical structure that is a direct part of the cell.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid50
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid54
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid53
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid54,
+        rdfs:label "
+Anatomical structure, that consists of similar cells and intercellular matrix, aggregated according to genetically determined spatial relationships.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid52
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid51
+
+    Annotations: 
+        rdfs:label "
+Anatomical structure that is contiguous with the embryo and is comprised of portions of tissue or cells that will not contribute to the embryo.
+"@en,
+        oboInOwl:hasDbXref _:genid52
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid58
+
+    Annotations: 
+        rdfs:label "
+Hermaphroditic organism that produces both male and female gametes at the same time.
+"@en,
+        oboInOwl:hasDbXref _:genid59
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid57
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid56
+
+    Annotations: 
+        rdfs:label "
+Hermaphroditic organism that produces gametes first of one sex, and then later of the other sex.
+"@en,
+        oboInOwl:hasDbXref _:genid57
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid55
+
+    Annotations: 
+        rdfs:label "consecutive hermaphroditic organism"@en
+    
+    Types: 
+        oboInOwl:Synonym
+    
+    
+Individual: _:genid9
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid10,
+        rdfs:label "Anatomical entity that has mass."@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid8
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid59
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid7
+
+    Annotations: 
+        rdfs:label "
+Non-material anatomical entity of three dimensions, that is generated by morphogenetic or other physiologic processes; is surrounded by one or more anatomical structures; contains one or more organism substances or anatomical structures.
+"@en,
+        oboInOwl:hasDbXref _:genid8
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid6
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid5
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid6,
+        rdfs:label "
+Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid4
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid3
+
+    Annotations: 
+        rdfs:label "
+Material anatomical entity that has inherent 3D shape and is generated by coordinated expression of the organism's own genome.
+"@en,
+        oboInOwl:hasDbXref _:genid4
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid2
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid1
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid2,
+        rdfs:label "
+Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid43
+
+    Annotations: 
+        rdfs:label "
+Multi-cellular organism that does not produce gametes.
+"@en,
+        oboInOwl:hasDbXref _:genid44
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid42
+
+    Annotations: 
+        rdfs:label "dioecious organism"@en
+    
+    Types: 
+        oboInOwl:Synonym
+    
+    
+Individual: _:genid41
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid40
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid41,
+        rdfs:label "
+Multi-cellular organism that can produce both male and female gametes.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid47
+
+    Annotations: 
+        rdfs:label "
+Anatomical structure that consists of cell parts and cell substances and together does not constitute a cell or a tissue.
+"@en,
+        oboInOwl:hasDbXref _:genid48
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid46
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid45
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid46,
+        rdfs:label "
+Anatomical structure which is a primary subdivision of whole organism. The mereological sum of these is the whole organism.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid44
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid49
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid50,
+        rdfs:label "
+Anatomical group that has its parts adjacent to one another.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid48
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid72
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid73,
+        rdfs:label "Anatomical space that is part of a cell."@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid71
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid70
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid71,
+        rdfs:label "
+Anatomical structure that has as its parts two or more portions of tissue of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona-fide boundaries from other distinct structural units of different types.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid76
+
+    Annotations: 
+        rdfs:label "Cell that is an individual member of a species."@en,
+        oboInOwl:hasDbXref _:genid77
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid75
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_mah"^^xsd:anyURI,
+        rdfs:label "CARO:mah"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid74
+
+    Annotations: 
+        rdfs:label "
+Portion of organism substance located within a cell.
+"@en,
+        oboInOwl:hasDbXref _:genid75
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid73
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_mah"^^xsd:anyURI,
+        rdfs:label "CARO:mah"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid79
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid78
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid79,
+        rdfs:label "
+Acellular anatomical structure that consists of a thin sheet of fibrous proteins that underlie and support the cells of an epithelium. It separates the cells of an epithelium from any underlying tissue.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid77
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid61
+
+    Annotations: 
+        rdfs:label "
+Multi-cellular organism that has male and female sexes.
+"@en,
+        oboInOwl:hasDbXref _:genid62
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid60
+
+    Annotations: 
+        rdfs:label "serially hermaphroditic organism"@en
+    
+    Types: 
+        oboInOwl:Synonym
+    
+    
+Individual: _:genid65
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid64
+
+    Annotations: 
+        rdfs:label "
+Sequential hermaphroditic organism that producesngametes first of the male sex, and then later of thenfemale sex.
+"@en,
+        oboInOwl:hasDbXref _:genid65
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid63
+
+    Annotations: 
+        rdfs:label "monoecious organism"@en
+    
+    Types: 
+        oboInOwl:Synonym
+    
+    
+Individual: _:genid62
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid69
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid68
+
+    Annotations: 
+        oboInOwl:hasDbXref _:genid69,
+        rdfs:label "
+Anatomical structure consisting of at least two non-overlapping organs, multi-tissue aggregates or portion of tissues or cells of different types that does not constitute an organism, organ, multi-tissue aggregate, or portion of tissue.
+"@en
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
+Individual: _:genid67
+
+    Annotations: 
+        oboInOwl:hasURI "http://purl.org/obo/owl/CARO#CARO_MAH"^^xsd:anyURI,
+        rdfs:label "CARO:MAH"
+    
+    Types: 
+        oboInOwl:DbXref
+    
+    
+Individual: _:genid66
+
+    Annotations: 
+        rdfs:label "
+Sequential hermaphroditic organism that producesngametes first of the female sex, and then later of thenmale sex.
+"@en,
+        oboInOwl:hasDbXref _:genid67
+    
+    Types: 
+        oboInOwl:Definition
+    
+    
